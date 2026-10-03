@@ -1,0 +1,16 @@
+{
+  "name": "pure-veda-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx ./scripts/dev.ts",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.19.2",
+    "typescript": "^7.0.2"
+  }
+}
